@@ -1,0 +1,55 @@
+body {
+    font-family: "Urbanist", sans-serif;
+    background-color: #1b1b1d;
+  }
+
+.main_todo_div {
+    width: 36rem;
+    display: grid;
+    grid-template-columns: 0.3fr 0.22fr;
+    height: auto;
+}
+.btn {
+    
+    background-color: #f5ee62;
+    padding: 0.5rem 0.5rem;
+    border-radius: 10rem;
+    margin-right: 3.6rem;
+    cursor: pointer;
+    transition: all 0.3s linear;
+    &:hover {
+        box-shadow: inset 0 0 0 0.2rem #f5ee62;
+        background-color: transparent;
+        color: #f5ee62;
+      }
+}
+
+.deleteBtn {
+  /* font-size: 1.7rem; */
+  /* letter-spacing: 0.1rem; */
+  font-family: "Urbanist", sans-serif;
+  /* line-height: 1.6; */
+    background-color: #f5ee62;
+    padding: 0.2rem 0.4rem;
+    border-radius: 10rem;
+    margin-right: 3.6rem;
+    cursor: pointer;
+    transition: all 0.3s linear;
+    &:hover {
+        box-shadow: inset 0 0 0 0.2rem #f5ee62;
+        background-color: transparent;
+        color: #f5ee62;
+      }
+}
+li{
+    font-size: 1.7rem;
+    letter-spacing: 0.1rem;
+    color: wheat;
+    font-family: "Urbanist", sans-serif;
+    /* line-height: 1.6; */
+}
+#inputValue {
+    font-size: 1.5rem ;
+    border-radius: 50px;
+
+}
